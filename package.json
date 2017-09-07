@@ -1,0 +1,19 @@
+{
+  "name": "background-playground",
+  "version": "1.0.0",
+  "description": "A page for background image test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udn-newmedia/background-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udn-newmedia/background-playground/issues"
+  },
+  "homepage": "https://github.com/udn-newmedia/background-playground#readme"
+}

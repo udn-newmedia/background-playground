@@ -1,0 +1,67 @@
+#iphone-5{
+    width: 320px;
+    height: 568px;
+}
+
+#iphone-6{
+    width: 375px;
+    height: 667px;
+}
+
+#iphone-7-plus{
+    width: 414px;
+    height: 736px;
+}
+
+#nexus-6p{
+    width: 411px;
+    height: 731px;
+}
+
+#galaxy-s4{
+    width: 360px;
+    height: 640px;
+}
+
+#nexus-7{
+    width: 600px;
+    height: 960px;
+}
+
+#pad{
+    width: 768px;
+    height: 1024px;
+}
+
+#pc{
+    width: 1280px;
+    height: 1080px;
+}
+
+#notebook{
+    width: 1336px;
+    height: 1080px;
+}
+
+#pc-wild{
+    width: 1920px;
+    height: 1080px;
+}
+
+.preview-container{
+    border: 1px solid #000000;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block-container{
+    float: left;
+    margin: 15px;
+}
+
+.web-headbar{
+    height: 50px;
+    width: 100%;
+    background: black;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            
+        <title></title>
+
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://unpkg.com/vue@2.4.2/dist/vue.js"></script>
+        
+    </head>
+    <body>
+        
+        <div id="app" class="container-fluid">
+            <h1>Udn Cover Testing Page</h1>
+            <h2>選擇圖檔</h2>
+            <div class="input-group">
+                <input type="file" accept="image/*" v-on:change="test"/>
+            </div>
+            <div>
+                <div class="block-container">
+                    <h4>Iphone 5 (320 x 568)</h4>
+                    <div id="iphone-5" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>Iphone 6 (375 x 667)</h4>
+                    <div id="iphone-6" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>Iphone 7 Plus (375 x 667)</h4>
+                    <div id="iphone-7-plus" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>Nexus 6P (411 x 731)</h4>
+                    <div id="nexus-6p" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>Galaxy S4 (360 x 640)</h4>
+                    <div id="galaxy-s4" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>Nexus 7 (600 x 960)</h4>
+                    <div id="nexus-7" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>iPad (768 x 1024)</h4>
+                    <div id="pad" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>PC 4:3 (1280 x 1024)</h4>
+                    <div id="pc" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>Notebook (1336 x 768)</h4>
+                    <div id="notebook" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+                <div class="block-container">
+                    <h4>PC 16:9 (1920 x 1080)</h4>
+                    <div id="pc-wild" class="preview-container" v-bind:style="{'background-image': 'url(' + image + ')' }"></div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
