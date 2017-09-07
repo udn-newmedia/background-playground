@@ -25,5 +25,3 @@ var app = new Vue({
         },
     }
 })
-
-console.log(5)
